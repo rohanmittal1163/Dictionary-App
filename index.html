@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Dictionary app</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<p class="heading">english dictionary</p>
+			<div class="search">
+				<label for="search_box" class="material-symbols-outlined">
+					search
+				</label>
+				<input
+					id="search_box"
+					type="text"
+					placeholder="Search a word"
+					autocomplete
+					autofocus
+				/>
+				<span class="material-symbols-outlined cross hide"> close </span>
+			</div>
+			<p class="footer">
+				Type a word and press Enter to get the meaning, example, pronunciation,
+				and synonyms of that typed word
+			</p>
+			<div class="footer2">
+				<div class="result">
+					<div>
+						<p class="word">happy</p>
+						<p class="adjective">adjective /hapi/</p>
+					</div>
+					<span class="material-symbols-outlined speak"> volume_up </span>
+				</div>
+				<div class="box">
+					<p>Meaning</p>
+					<p class="meaning">feeling or showing pleasure or contentment</p>
+				</div>
+				<div class="box">
+					<p>example</p>
+					<p class="example">feeling or showing pleasure or contentment</p>
+				</div>
+				<div class="box">
+					<p>synonyms</p>
+					<ul class="synonyms"></ul>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
